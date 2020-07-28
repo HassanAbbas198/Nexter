@@ -1,0 +1,17 @@
+{
+	"name": "trillo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"watch:sass": "node-sass sass/main.scss css/style.css -w",
+		"compile:sass": "node-sass sass/main.scss css/style.comp.css"
+	},
+	"keywords": [],
+	"author": "Hassan Abbas",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^4.14.1"
+	},
+	"dependencies": {}
+}
